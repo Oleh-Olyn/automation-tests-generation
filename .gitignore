@@ -6,10 +6,25 @@ blob-report/
 playwright/.cache/
 playwright/.auth/
 .playwright-mcp/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+.nyc_output/
+coverage/
+cypress/fixtures/example.json
+cypress/support/commands.js
+cypress/support/e2e.js
+
 # Environment variables
 .env
 .env.*
 !.env.example
+
 # OS / IDE
 .DS_Store
 .idea/
+
+# Logs
+*.log
